@@ -46,15 +46,18 @@ export function parseStringEventToObject(stringEvent) {
   const DATA = 'data';
   const EVENT = 'event';
   const ID = 'id';
+  const RETRY = 'retry';
   // the index of our keys: in the string event
   const indexOfData = stringEvent.indexOf(DATA + ':');
   const indexOfEvent = stringEvent.indexOf(EVENT + ':');
   const indexOfId = stringEvent.indexOf(ID + ':');
+  const indexOfRetry = stringEvent.indexOf(RETRY + ':');
   // we make a nice array of keys and their index
   const keys = [
       { key: DATA, index: indexOfData },
       { key: EVENT, index: indexOfEvent },
       { key: ID, index: indexOfId },
+      { key: RETRY, index: indexOfRetry },
   ];
   // sort indexes and start the slicing
   const objectEvent = keys
