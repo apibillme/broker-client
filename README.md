@@ -10,9 +10,9 @@ Check out broker - your Real-time Zero-Code API Server - [https://crates.io/crat
 import BrokerClient from 'broker-client';
 
 const sse = new BrokerClient('http://url', {
-  headers: new Headers({
-    Authorization: 'Bearer 123token',
-  }),
+  headers: {
+    authorization: 'Bearer 123token',
+  },
 });
 
 sse.addEventListener('MyEvent', (messageEvent) => {});
