@@ -1,6 +1,6 @@
 {
   "name": "broker-client",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Broker Client",
   "main": "index.js",
   "dependencies": {},
