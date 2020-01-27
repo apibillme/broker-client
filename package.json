@@ -1,6 +1,6 @@
 {
   "name": "broker-client",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Broker Client",
   "main": "index.js",
   "dependencies": {},
@@ -19,12 +19,5 @@
   ],
   "author": "Bevan Hunt",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/apibillme/broker-client/issues"
-  },
-  "homepage": "https://github.com/apibillme/broker-client#readme",
-  "prettier": {
-    "singleQuote": true,
-    "trailingComma": "all"
-  }
+  "homepage": "https://crates.io/crates/broker"
 }
